@@ -1,0 +1,7 @@
+{
+  "name": "Taste Haven Restaurant",
+  "description": "Modern online food ordering experience for Taste Haven Restaurant with artisanal menu, cart, and seamless checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
