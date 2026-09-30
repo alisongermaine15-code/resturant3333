@@ -212,7 +212,7 @@ export const ShippingPage: React.FC<ShippingPageProps> = ({
                       value={formData.phone}
                       onChange={(e) => handleChange('phone', e.target.value)}
                       onBlur={() => handleBlur('phone')}
-                      placeholder="+1 (555) 019-2834"
+                      placeholder="+1 (212) 555-0194"
                       className={`w-full pl-10 pr-4 py-2.5 rounded-lg border text-sm text-[#1C140E] bg-[#FAF7F2] focus:bg-white focus:outline-hidden transition-all ${
                         touched.phone && errors.phone
                           ? 'border-red-500 focus:ring-1 focus:ring-red-500'
@@ -247,7 +247,7 @@ export const ShippingPage: React.FC<ShippingPageProps> = ({
                     value={formData.streetAddress}
                     onChange={(e) => handleChange('streetAddress', e.target.value)}
                     onBlur={() => handleBlur('streetAddress')}
-                    placeholder="124 Harvest Hill Road, Apt 4B"
+                    placeholder="450 Lexington Avenue, Apt 14B"
                     className={`w-full pl-10 pr-4 py-2.5 rounded-lg border text-sm text-[#1C140E] bg-[#FAF7F2] focus:bg-white focus:outline-hidden transition-all ${
                       touched.streetAddress && errors.streetAddress
                         ? 'border-red-500 focus:ring-1 focus:ring-red-500'
@@ -282,7 +282,7 @@ export const ShippingPage: React.FC<ShippingPageProps> = ({
                       value={formData.city}
                       onChange={(e) => handleChange('city', e.target.value)}
                       onBlur={() => handleBlur('city')}
-                      placeholder="San Francisco"
+                      placeholder="New York"
                       className={`w-full pl-10 pr-4 py-2.5 rounded-lg border text-sm text-[#1C140E] bg-[#FAF7F2] focus:bg-white focus:outline-hidden transition-all ${
                         touched.city && errors.city
                           ? 'border-red-500 focus:ring-1 focus:ring-red-500'
@@ -311,7 +311,7 @@ export const ShippingPage: React.FC<ShippingPageProps> = ({
                     value={formData.state}
                     onChange={(e) => handleChange('state', e.target.value)}
                     onBlur={() => handleBlur('state')}
-                    placeholder="California"
+                    placeholder="New York"
                     className={`w-full px-4 py-2.5 rounded-lg border text-sm text-[#1C140E] bg-[#FAF7F2] focus:bg-white focus:outline-hidden transition-all ${
                       touched.state && errors.state
                         ? 'border-red-500 focus:ring-1 focus:ring-red-500'
@@ -375,7 +375,7 @@ export const ShippingPage: React.FC<ShippingPageProps> = ({
                     value={formData.postalCode}
                     onChange={(e) => handleChange('postalCode', e.target.value)}
                     onBlur={() => handleBlur('postalCode')}
-                    placeholder="94107"
+                    placeholder="10017"
                     className={`w-full px-4 py-2.5 rounded-lg border text-sm text-[#1C140E] bg-[#FAF7F2] focus:bg-white focus:outline-hidden transition-all font-mono ${
                       touched.postalCode && errors.postalCode
                         ? 'border-red-500 focus:ring-1 focus:ring-red-500'

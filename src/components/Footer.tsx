@@ -53,11 +53,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateToMenu }) => {
             <div className="space-y-2 text-xs text-[#B8A698]">
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#E6A15C] shrink-0 mt-0.5" />
-                <span>742 Gourmet Promenade, San Francisco, CA 94107</span>
+                <span>450 Lexington Avenue, Midtown Manhattan, New York, NY 10017</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-[#E6A15C]" />
-                <span>+1 (415) 890-3420</span>
+                <span>+1 (212) 890-3420</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#E6A15C]" />
